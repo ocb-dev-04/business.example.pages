@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---------------------------- dimensions styles ---------------------------- */
+
+header{
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+header, section, footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap{
+    width: 95%;
+    min-width: 650px;
+    max-width: 1000px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ---------------------------- border's and padding's styles ---------------------------- */
+
+.orange{
+    border: 1px solid orange;
+}
+
+.gray{
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.r_50{
+    border-radius: 50%;
+}
+
+.r_10{
+    border-radius: 10px;
+}
+
+.r_7{
+    border-radius: 7px;
+}
+
+/* ---------------------------- input's and bottom's styles ---------------------------- */
+
+.i_on_orange{
+    background-color: orange;
+    color: #fff;
+    transition: .5s;
+}
+
+.i_on_orange:hover{
+    background-color: #fff;
+    color: orange;
+    border: 1px solid orange;
+}
+
+.i_off_orange{
+    background-color: #fff;
+    border: 1px solid orange;
+    color:orange;
+    transition: .5s;
+}
+
+.i_off_orange:hover{
+    background-color: orange;
+    color: #fff;
+    border: 1px solid orange;
+}
+
+
+/* ---------------------------- header styles ---------------------------- */
+
+.app_name{
+    margin-top: 10px;
+}
+
+.app_name a{
+    text-decoration: none;
+    color: orange;
+    font-size: 2em;
+}
+
+.home_produts, .contact_about{
+    margin-top: 20px;
+    display: flex;
+}
+
+.home_produts a, .contact_about a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 5px 10px;
+    margin: 0px 3px;
+}
+
+.home_produts a:hover{
+    border-bottom: 2px solid orange;
+    color: orange;
+}
+
+.contact_about a:hover{
+    border-bottom: 2px solid orange;
+    color: orange;
+}
