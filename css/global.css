@@ -80,31 +80,6 @@ header, footer{
 
 /* ---------------------------- input's and bottom's styles ---------------------------- */
 
-.i_on_orange{
-    background-color: orange;
-    color: #fff;
-    transition: .5s;
-}
-
-.i_on_orange:hover{
-    background-color: #fff;
-    color: orange;
-    border: 1px solid orange;
-}
-
-.i_off_orange{
-    background-color: #fff;
-    border: 1px solid orange;
-    color:orange;
-    transition: .5s;
-}
-
-.i_off_orange:hover{
-    background-color: orange;
-    color: #fff;
-    border: 1px solid orange;
-}
-
 .link_on{
     background-color: orange;
     border-radius: 7px;
