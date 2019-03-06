@@ -103,6 +103,15 @@ header, footer{
     border: 1px solid orange;
 }
 
+.link_on{
+    background-color: orange;
+    border-radius: 7px;
+    color:#fff;
+}
+
+.link_on:hover{
+    color: #000;
+}
 
 /* ---------------------------- header styles ---------------------------- */
 
