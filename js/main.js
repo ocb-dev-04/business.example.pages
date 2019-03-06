@@ -1,3 +1,23 @@
+window.onload= function (){
+    addAllFun();     
+}
+
+// add all function
+function addAllFun(){
+    addAllSub();
+}
+
+//charge last movie
+function addAllSub(){
+
+    // this array will simulate an API response
+    subDescription = 'Lorem anfi cas foli more.';
+    for(var cont = 0; cont <=10;cont++){
+        $('.sub_list').append("<li>"+ subDescription +"</li>");
+    }
+
+}
+
 // code for show info
 
 function sendInfoContact(){

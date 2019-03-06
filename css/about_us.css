@@ -15,7 +15,7 @@ section{
 
 .intro{
     position: absolute;
-    margin: 90px auto;
+    margin: 40px auto;
     padding: 30px 50px;
 
     background-color: rgba(0,0,0,.8);
@@ -32,7 +32,7 @@ section{
 
 .intro p{
     color: orange;
-
+    font-size: 1.2em;
     display: block;
     width: 600px;
     margin: 20px auto;
