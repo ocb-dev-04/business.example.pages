@@ -22,6 +22,8 @@ header, footer{
     width: 95%;
     min-width: 650px;
     max-width: 1000px;
+
+    /* border: 1px solid; */
 }
 
 .wrap_p{
@@ -50,7 +52,7 @@ header, footer{
 
 .bgi{
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
 }
 
