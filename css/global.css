@@ -12,7 +12,7 @@ header{
     border-bottom: 1px solid rgba(0, 0, 0, .2);
 }
 
-header, section, footer{
+header, footer{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -22,6 +22,13 @@ header, section, footer{
     width: 95%;
     min-width: 650px;
     max-width: 1000px;
+}
+
+.wrap_p{
+    width: 95%;
+    height: auto;
+    min-width: 200px;
+    max-width: 700px;
 }
 
 .center{
@@ -37,6 +44,14 @@ header, section, footer{
 .between{
     display: flex;
     justify-content: space-between;
+}
+
+/* ---------------------------- background-image styles ---------------------------- */
+
+.bgi{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /* ---------------------------- border's and padding's styles ---------------------------- */
